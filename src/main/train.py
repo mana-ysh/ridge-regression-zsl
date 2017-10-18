@@ -15,8 +15,8 @@ import sys
 import tensorflow as tf
 
 sys.path.append('../')
-from interfaces.evaluator import Evaluator
-from interfaces.trainer import *
+from processors.evaluator import Evaluator
+from processors.trainer import *
 from utils.dataset import gen_synthetic_data
 from utils.math_util import *
 
